@@ -3,7 +3,8 @@
 - build and publish the plugin to `mavenLocal`, there is a run configuration included or "run anything" could be used:
 
 ```bash
-./gradlew pTML
+./gradlew model:publishToMavenLocal
+./gradlew plugin:publishToMavenLocal
 ```
 
 - get the sample project from [here](https://github.com/pratclot/kotlinproject)
